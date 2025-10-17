@@ -2,6 +2,8 @@ SVG- er en fil fra illustrator og gjør sånn at bilder er mer definert og har i
 ID- gir navn til ting, du kan ha bare en ting i id
 button- lager en knapp du kan trykke på
 input- lager en searhc bar
+script- du kan ha med en annen språk i html som javascript.
+
 
 
 
