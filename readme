@@ -5,6 +5,7 @@ input- lager en searhc bar
 script- du kan ha med en annen språk i html som javascript.
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> tilpasser websiten for mobilen.
 title- kan bytte navnet på websiten din i søke feltet
+iframe- kan putte en website inni websiten
 
 
 
