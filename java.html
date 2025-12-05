@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+ <button id="knapp">Trykk meg</button>
+    <script src="script.js">  
+    const knapp = document.getElementById("knapp")
+    function siHei(){
+        alert("hei på deg");
+    }
+    knapp.addEventListener("click," siHei);
+
+
+
+    <input id="tall1" type="number" placeholder="Første tall">
+  <input id="tall2" type="number" placeholder="Andre tall">
+  <button id="pluss">Legg sammen</button>
+  <p id="resultat"></p>
+
+  <script>
+    const tall1 = document.getElementById("tall1");
+    const tall2 = document.getElementById("tall2");
+    const knapp = document.getElementById("pluss");
+    const resultat = document.getElementById("resultat");
+
+    function leggSammen() {
+      let sum = Number(tall1.value) + Number(tall2.value);
+      resultat.textContent = "Summen er: " + sum;
+    }
+
+    knapp.addEventListener("click", leggSammen);
+    </script>
+    
+    
+
+   
+    
+    
+    
+</body>
+</html>
